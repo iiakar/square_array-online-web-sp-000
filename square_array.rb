@@ -1,6 +1,7 @@
 def square_array(array)
   a = []
-  array.map  {|i| i ** 2} 
+  array.map do {|i| i ** 2} 
  a << i
-
+ a
+end
 end
